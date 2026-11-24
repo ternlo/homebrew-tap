@@ -1,7 +1,7 @@
 # Template of the Homebrew cask; scripts/release.sh fills it in and pushes it to the tap.
 cask "ternlo" do
-  version "0.1.1"
-  sha256 "45a6a02e61fc215e154dd2ec1b3bed085c18b433861854585945dbf35aa7345a"
+  version "0.1.2"
+  sha256 "5561856d64602f1a1bf6768d99cc5cd2e6b2b4c6d314fc9b83e5b5ec64383a48"
 
   url "https://github.com/ternlo/releases/releases/download/v#{version}/Ternlo_#{version}_aarch64.dmg"
   name "Ternlo"
